@@ -29,6 +29,7 @@ function App() {
       path: '', element: <Layout />, children: [
         { index: true, element: <ProtectedRoute><Home /></ProtectedRoute> },
         { path: 'login', element: <ProtectAuthRoutes><Login /></ProtectAuthRoutes> },
+        { path: 'FreshCart/', element: <ProtectAuthRoutes><Login /></ProtectAuthRoutes> },
         { path: 'register', element: <ProtectAuthRoutes><Register /></ProtectAuthRoutes> },
         { path: 'cart', element: <ProtectedRoute><Cart /></ProtectedRoute> },
         { path: 'products', element: <ProtectedRoute><Products /></ProtectedRoute> },
