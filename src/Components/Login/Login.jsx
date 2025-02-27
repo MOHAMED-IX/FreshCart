@@ -20,8 +20,8 @@ export default function Login() {
   })
 
   const initialValues = {
-    'email': '',
-    'password': '',
+    'email': 'mo+hedaya007@gmail.com',
+    'password': '1!MO@#$hedaya',
   };
 
   let { handleSubmit, values, handleChange, errors, touched, handleBlur } = useFormik({
